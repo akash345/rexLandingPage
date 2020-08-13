@@ -481,11 +481,12 @@ mark,
 }
 
 .img-header {
-  max-width: 40%;
+  max-width: 50%;
   vertical-align: middle;
   align-items: center;
   align-content: center;
-  margin-left: 5rem;
+  margin-left: 0rem;
+  z-index: 1;
 }
 
 .img-thumbnail {
@@ -1215,6 +1216,12 @@ pre code {
   }
   .col-lg-6 {
     -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    z-index: 950;
+  }
+  .col-lg-6.5 {
+    -ms-flex: 0 0 40%;
     flex: 0 0 50%;
     max-width: 50%;
   }

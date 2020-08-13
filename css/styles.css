@@ -54,7 +54,7 @@ body, p {
 
 .p-large {
 	color: #f1f1f8;
-	font: 400 2rem/2.5rem "Open Sans", sans-serif;
+	font: 400 1.9rem/2.5rem "Open Sans", sans-serif;
 }
 
 .p-small {
@@ -638,8 +638,7 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #4633af;
-	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	background-image: url('../images/header-navy-background.png');
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s ease;
 }
@@ -699,7 +698,6 @@ input[type='checkbox'] {
 	margin-top: 0;
 	border: none;
 	border-radius: 0.25rem;
-	background-color: #4633af;
 }
 
 .navbar-custom .dropdown-item {
@@ -708,7 +706,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item:hover {
-	background-color: #4633af;
+  color: #0f1538
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -766,7 +764,7 @@ input[type='checkbox'] {
 }
 
 .header .header-content {
-	padding-top: 8.5rem;
+	padding-top: 9rem;
 	padding-bottom: 7rem;
 	text-align: center;
 }
@@ -1547,7 +1545,7 @@ a:hover.back-to-top {
 	}
 
 	h1 {
-		font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
+		font: 700 3.00rem/3.75rem "Montserrat", sans-serif;
 	}
 	/* end of general styles */
 
@@ -1557,6 +1555,7 @@ a:hover.back-to-top {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
 		box-shadow: none;
         background: transparent;
+    background-image: url('../images/header-navy-background.png');
 	}
 
 	.navbar-custom .navbar-brand.logo-text {
@@ -1972,14 +1971,16 @@ a:hover.back-to-top {
 	/* Header */
 	.header .text-container {
 		margin-top: 7.5rem;
-		margin-left: 2.5rem;
+		margin-left: 0rem;
+    z-index: 1150;
 	}
 
 	.header .image-container {
     align-items: center;
     vertical-align: middle;
     width: 1200px;
-    height: 600px;
+    height: 500px;
+    z-index: 900;
 	}
 	/* end of header */
 
